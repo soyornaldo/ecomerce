@@ -1,8 +1,9 @@
 package routes
 
 import (
-	"ecomerce/controllers"
 	"github/gin-gonic/gin"
+
+	"github.com/soyornaldo/ecomerce/controllers"
 )
 
 func userRoutes(incomingRoutes *gin.Engine) {
